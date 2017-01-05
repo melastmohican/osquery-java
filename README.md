@@ -67,10 +67,10 @@ osquery> select value from osquery_flags where name = 'extensions_socket';
 |/Users/USERNAME/.osquery/shell.em
 
 **Then start the Java extension:**
-
+```
 javac MyTablePlugin.java
 java -Dextension.socket=/Users/USERNAME/.osquery/shell.em MyTablePlugin
-
+```
 This will register a table called "mytable". As you can see, the table will
 return two rows:
 ```
