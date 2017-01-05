@@ -4,7 +4,7 @@ This project contains the Java bindings for creating osquery extensions in Java.
 Plugin can quickly enable the integration of data which is not yet available as a part of base osquery. 
 
 ## Prerequisites
-Osquery must be installed on the computer you are running this sogtware. Osquery should be run as the same user the user which runs the code shown here.
+Osquery must be installed on the computer you are running this software. Osquery should be run as the same user the user which runs the code shown here.
 
 ## How to
 **Consider the following example:**
