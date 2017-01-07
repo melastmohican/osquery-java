@@ -10,6 +10,7 @@ import java.util.Collections;
 import org.apache.thrift.TException;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import net.melastmohican.osquery.BasePluginTest.SimplePlugin;
@@ -49,6 +50,7 @@ public class PluginManagerTest {
 		assertThat(resp.status.message, is("OK"));
 	}
 	
+	@Ignore
 	@Test
 	public void testStartExtension() throws ExtensionException, IOException {
 		BasePlugin plugin = new SimpleTablePlugin();

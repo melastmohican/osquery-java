@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.thrift.TException;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import osquery.extensions.ExtensionManager;
@@ -44,6 +45,7 @@ public class ClientManagerTest {
 	 * @throws TException if Thrift problem occurs
 	 * @throws IOException if an I/O error occurs
 	 */
+	@Ignore
 	@Test
 	public final void testGetClient() throws TException, IOException {
 		ClientManager cm =  new ClientManager();
