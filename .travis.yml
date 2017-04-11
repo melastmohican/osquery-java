@@ -1,0 +1,7 @@
+language: java
+
+jdk:
+  - oraclejdk7
+
+install: gradle -q assemble
+script: gradle clean check distZip --stacktrace
