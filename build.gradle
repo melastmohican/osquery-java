@@ -4,6 +4,7 @@ plugins {
 
 apply plugin: 'eclipse'
 apply plugin: 'java'
+apply plugin: 'distribution'
 
 group = 'net.melastmohican.osquery'
 version = '0.1-SNAPSHOT'
