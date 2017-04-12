@@ -1,10 +1,11 @@
+dist: trusty
+
 language: java
 
 jdk:
   - oraclejdk7
 
 before_install:
-  - sudo add-apt-repository ppa:boost-latest/ppa -y
   - sudo apt-get update -qq
   - sudo apt-get install automake bison flex g++ git libboost-all-dev libevent-dev libssl-dev libtool make pkg-config
   - gem install executable-hooks
